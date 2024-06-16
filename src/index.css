@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html[data-theme="theme1"] {
+  --background-color: hsl(222, 26%, 31%);
+  --toggle-background-color: hsl(223, 31%, 20%);
+  --window-color: hsl(224, 36%, 15%);
+  --header-text-color: hsl(0, 0%, 100%);
+
+  --normal-key-background-color: hsl(30, 25%, 89%);
+  --normal-key-shadow-color: hsl(28, 16%, 65%);
+  --normal-key-text-color: hsl(221, 14%, 31%);
+  --normal-key-active-background-color: hsl(0, 0%, 100%);
+
+  --special-key-background-color: hsl(225, 21%, 49%);
+  --special-key-shadow-color: hsl(224, 28%, 35%);
+  --special-key-text-color: hsl(0, 0%, 100%);
+  --special-key-active-background-color: hsl(223.81, 51.22%, 75.88%);
+
+  --result-key-background-color: hsl(6, 63%, 50%);
+  --result-key-shadow-color: hsl(6, 70%, 34%);
+  --result-key-text-color: hsl(0, 0%, 100%);
+  --result-key-active-background-color: hsl(6.46, 92.94%, 66.67%);
+}
+
+html[data-theme="theme2"] {
+  --background-color: hsl(0, 0%, 90%);
+  --toggle-background-color: hsl(0, 5%, 81%);
+  --window-color: hsl(0, 0%, 93%);
+  --header-text-color: hsl(60, 10%, 19%);
+
+  --normal-key-background-color: hsl(45, 7%, 89%);
+  --normal-key-shadow-color: hsl(35, 11%, 61%);
+  --normal-key-text-color: hsl(60, 10%, 19%);
+  --normal-key-active-background-color: hsl(0, 0%, 100%);
+
+  --special-key-background-color: hsl(185, 42%, 37%);
+  --special-key-shadow-color: hsl(185, 58%, 25%);
+  --special-key-text-color: hsl(0, 0%, 100%);
+  --special-key-active-background-color: hsl(185.27, 40.81%, 56.27%);
+
+  --result-key-background-color: hsl(25, 98%, 40%);
+  --result-key-shadow-color: hsl(25, 99%, 27%);
+  --result-key-text-color: hsl(0, 0%, 100%);
+  --result-key-active-background-color: hsl(24.72, 100%, 60.98%);
+}
+
+html[data-theme="theme3"] {
+  --background-color: hsl(268, 75%, 9%);
+  --toggle-background-color: hsl(268, 71%, 12%);
+  --window-color: hsl(268, 71%, 12%);
+  --header-text-color: hsl(52, 100%, 62%);
+
+  --normal-key-background-color: hsl(268, 47%, 21%);
+  --normal-key-shadow-color: hsl(290, 70%, 36%);
+  --normal-key-text-color: hsl(52, 100%, 62%);
+  --normal-key-active-background-color: hsl(267.5 53.57% 43.92%);
+
+  --special-key-background-color: hsl(281, 89%, 26%);
+  --special-key-shadow-color: hsl(285, 91%, 52%);
+  --special-key-text-color: hsl(0, 0%, 100%);
+  --special-key-active-background-color: hsl(279.05, 55.75%, 44.31%);
+
+  --result-key-background-color: hsl(176, 100%, 44%);
+  --result-key-shadow-color: hsl(177, 92%, 70%);
+  --result-key-text-color: hsl(198, 20%, 13%);
+  --result-key-active-background-color: hsl(176.64, 100%, 79.02%);
+}

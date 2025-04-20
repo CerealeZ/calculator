@@ -1,6 +1,7 @@
 # React + TypeScript + Vite
 
 This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![image](https://github.com/user-attachments/assets/e8f2f4ca-6a50-42ba-bccc-0a25b309e4c0)
 
 
 ## Why I'm doing this?
@@ -10,7 +11,7 @@ A few years ago [I made a calculator with Vanilla JS](https://astonishing-macaro
 
 ![alt text](image.png)
 
-I wanted to bring her to life again with this project.
+I wanted to bring it to life again with this project.
 
 
 ## Vite Docs
